@@ -31,14 +31,14 @@ if number == 1:
     print(f"возраст: {user1['age']}")
     print(f"Логин: {account1['login']}")
     print(f"Пароль: {account1['password']}")
-else:
+elif:
     number == 2
     print(f"имя: {user2['name']}")
     print(f"возраст: {user2['age']}")
     print(f"Логин: {account2['login']}")
     print(f"Пароль: {account2['password']}")
 elif:
-    number == 3
+    number == 3:
     print(f"имя: {user3['name']}")
     print(f"возраст: {user3['age']}")
     print(f"Логин: {account3['login']}")

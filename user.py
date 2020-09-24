@@ -1,5 +1,3 @@
-import statistics
-
 account1 = {'login': 'ivan', 'password': 'q1'}
 account2 = {'login': 'petr', 'password': 'q2'}
 account3 = {'login': 'olga', 'password': 'q3'}
@@ -56,16 +54,18 @@ if move == 1:
 elif move == 2:
     user_list.sort(key = user2.__eq__)
     print('Карточки до перемещения: ' + str(user_list))
-    print('Карточка №1 перемещена в конец списка: ' + str(user_list))
+    print('Карточка №2 перемещена в конец списка: ' + str(user_list))
 elif move == 3:
     user_list.sort(key = user3.__eq__)
     print('Карточки до перемещения: ' + str(user_list))
-    print('Карточка №1 перемещена в конец списка: ' + str(user_list))
+    print('Карточка №3 перемещена в конец списка: ' + str(user_list))
 elif move == 4:
     user_list.sort(key = user4.__eq__)
     print('Карточки до перемещения: ' + str(user_list))
-    print('Карточка №1 перемещена в конец списка: ' + str(user_list))
-else move > 5:
+    print('Карточка №4 перемещена в конец списка: ' + str(user_list))
+else:
     print('Нет такой карточки')
 
-print('Средний возраст всех юзеров: ' + statistics.mean{user_list['age']})
+average = sum(['age']) / len(int(user_list))
+
+print(f"Средний возраст всех юзеров: " + int(average))

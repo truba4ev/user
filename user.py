@@ -8,12 +8,7 @@ user2 = {'name': 'Петр', 'age': 25, 'account': account2}
 user3 = {'name': 'Ольга', 'age': 18, 'account': account3}
 user4 = {'name': 'Анна', 'age': 27, 'account': account4}
 
-User_list = [user1, user2, user3, user4]
-
-#user1 = user[0]
-#user2 = user[1]
-#user3 = user[2]
-#user4 = user[3]
+user_list = [user1, user2, user3, user4]
 
 key = input('Введите ключ (name или account): ')
 if key == 'NaMe':
@@ -51,3 +46,23 @@ else:
     print('Нет такой карточки')
 
 move = int(input('Введите номер пользователя, которого нужно переместить в конец:'))
+
+if move == 1:
+    user_list.sort(key = user1.__eq__)
+    print('Карточки до перемещения: ' + str(user_list))
+    print('Карточка №1 перемещена в конец списка: ' + str(user_list))
+elif move == 2:
+    user_list.sort(key = user2.__eq__)
+    print('Карточки до перемещения: ' + str(user_list))
+    print('Карточка №1 перемещена в конец списка: ' + str(user_list))
+elif move == 3:
+    user_list.sort(key = user3.__eq__)
+    print('Карточки до перемещения: ' + str(user_list))
+    print('Карточка №1 перемещена в конец списка: ' + str(user_list))
+elif move == 4:
+    user_list.sort(key = user4.__eq__)
+    print('Карточки до перемещения: ' + str(user_list))
+    print('Карточка №1 перемещена в конец списка: ' + str(user_list))
+else move > 5:
+    print('Нет такой карточки')
+    

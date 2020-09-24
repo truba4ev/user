@@ -1,3 +1,5 @@
+import statistics
+
 account1 = {'login': 'ivan', 'password': 'q1'}
 account2 = {'login': 'petr', 'password': 'q2'}
 account3 = {'login': 'olga', 'password': 'q3'}
@@ -65,4 +67,5 @@ elif move == 4:
     print('Карточка №1 перемещена в конец списка: ' + str(user_list))
 else move > 5:
     print('Нет такой карточки')
-    
+
+print('Средний возраст всех юзеров: ' + statistics.mean{user_list['age']})

@@ -66,6 +66,6 @@ elif move == 4:
 else:
     print('Нет такой карточки')
 
-average = sum(['age']) / len(int(user_list))
+average = sum('age') / len(int(user_list))
 
 print(f"Средний возраст всех юзеров: " + int(average))

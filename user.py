@@ -66,6 +66,11 @@ elif move == 4:
 else:
     print('Нет такой карточки')
 
-#average = f'Средний возраст всех юзеров: ' + age_list
+""" Средней возраст
 
-#print(average)
+average = f'Средний возраст всех юзеров: ' + age_list  
+
+print(average)
+
+"""
+

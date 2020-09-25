@@ -48,24 +48,24 @@ else:
 move = int(input('Введите номер пользователя, которого нужно переместить в конец:'))
 
 if move == 1:
-    user_list.sort(key = user1.__eq__)
     print('Карточки до перемещения: ' + str(user_list))
+    user_list.sort(key = user1.__eq__)
     print('Карточка №1 перемещена в конец списка: ' + str(user_list))
 elif move == 2:
-    user_list.sort(key = user2.__eq__)
     print('Карточки до перемещения: ' + str(user_list))
+    user_list.sort(key = user2.__eq__)
     print('Карточка №2 перемещена в конец списка: ' + str(user_list))
 elif move == 3:
-    user_list.sort(key = user3.__eq__)
     print('Карточки до перемещения: ' + str(user_list))
+    user_list.sort(key = user3.__eq__)
     print('Карточка №3 перемещена в конец списка: ' + str(user_list))
 elif move == 4:
-    user_list.sort(key = user4.__eq__)
     print('Карточки до перемещения: ' + str(user_list))
+    user_list.sort(key = user4.__eq__)
     print('Карточка №4 перемещена в конец списка: ' + str(user_list))
 else:
     print('Нет такой карточки')
 
 #average = f'Средний возраст всех юзеров: ' + age_list
 
-print(average)
+#print(average)
